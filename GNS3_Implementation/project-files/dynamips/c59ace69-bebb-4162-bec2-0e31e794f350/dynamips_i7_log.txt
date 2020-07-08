@@ -1,0 +1,47 @@
+May 12 17:10:34.537 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 12 17:10:34.540 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58886.
+May 12 17:10:34.931 HYPERVISOR: exec_cmd: hypervisor version 
+May 12 17:10:34.931 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips 
+May 12 17:10:34.932 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+May 12 17:10:34.933 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\0654f65b-d51f-4024-9256-073e54d9b867 
+May 12 17:10:34.936 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\0654f65b-d51f-4024-9256-073e54d9b867
+May 12 17:10:34.936 HYPERVISOR: exec_cmd: vm create R73 6 c7200 
+May 12 17:10:34.943 VM: VM R73 created.
+May 12 17:10:34.945 HYPERVISOR: exec_cmd: vm set_con_tcp_port R73 5010 
+May 12 17:10:34.946 HYPERVISOR: exec_cmd: c7200 get_mac_addr R73 
+May 12 17:10:34.948 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.949 HYPERVISOR: exec_cmd: vm slot_add_binding R73 0 0 C7200-IO-FE 
+May 12 17:10:34.952 HYPERVISOR: exec_cmd: vm set_disk0 R73 0 
+May 12 17:10:34.953 HYPERVISOR: exec_cmd: vm set_exec_area R73 64 
+May 12 17:10:34.955 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.955 HYPERVISOR: exec_cmd: vm set_idle_pc R73 0x601712a8 
+May 12 17:10:34.958 HYPERVISOR: exec_cmd: vm set_ios R73 C:/Users/Tiago/GNS3/images/IOS/Router_7200_Firmware_15.1(4).image 
+May 12 17:10:34.962 HYPERVISOR: exec_cmd: c7200 set_mac_addr R73 ca06.139c.0000 
+May 12 17:10:34.963 HYPERVISOR: exec_cmd: vm set_nvram R73 512 
+May 12 17:10:34.964 HYPERVISOR: exec_cmd: vm set_ram R73 512 
+May 12 17:10:34.966 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.967 HYPERVISOR: exec_cmd: vm slot_remove_binding R73 0 0 
+May 12 17:10:34.968 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.969 HYPERVISOR: exec_cmd: vm slot_add_binding R73 0 0 C7200-IO-2FE 
+May 12 17:10:34.971 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.972 HYPERVISOR: exec_cmd: vm slot_add_binding R73 1 0 PA-2FE-TX 
+May 12 17:10:34.973 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.974 HYPERVISOR: exec_cmd: vm slot_add_binding R73 2 0 PA-2FE-TX 
+May 12 17:10:34.976 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:10:34.976 HYPERVISOR: exec_cmd: vm slot_add_binding R73 3 0 PA-2FE-TX 
+May 12 17:13:52.657 HYPERVISOR: exec_cmd: vm set_ios R73 C:/Users/Tiago/GNS3/images/IOS/Router_7200_Firmware_15.1(4).image 
+May 12 17:14:07.122 HYPERVISOR: exec_cmd: nio create_udp udp-3595a8d5-3495-42d3-972e-f054ce2cd90c 10144 127.0.0.1 10145 
+May 12 17:14:07.388 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R73 0 1 udp-3595a8d5-3495-42d3-972e-f054ce2cd90c 
+May 12 17:14:07.390 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:14:13.400 HYPERVISOR: exec_cmd: nio create_udp udp-c354b2f5-341e-40d3-805a-3bda46174ad0 10148 127.0.0.1 10149 
+May 12 17:14:13.404 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R73 0 0 udp-c354b2f5-341e-40d3-805a-3bda46174ad0 
+May 12 17:14:13.405 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:17:22.602 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:17:22.608 HYPERVISOR: exec_cmd: vm extract_config R73 
+May 12 17:17:23.313 HYPERVISOR: exec_cmd: vm get_status R73 
+May 12 17:17:23.314 HYPERVISOR: exec_cmd: vm extract_config R73 
+May 12 17:17:23.316 HYPERVISOR: exec_cmd: vm delete R73 
+May 12 17:17:23.316 VM: VM R73 destroyed.
+May 12 17:17:23.340 HYPERVISOR: exec_cmd: hypervisor stop 
+May 12 17:17:23.840 HYPERVISOR: Stopped.
+May 12 17:17:23.840 GENERAL: reset done.

@@ -1,0 +1,56 @@
+May 23 16:07:48.383 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 23 16:07:48.384 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54979.
+May 23 16:07:48.869 HYPERVISOR: exec_cmd: hypervisor version 
+May 23 16:07:48.869 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Tiago\GNS3\projects\Arquitetura de Redes\Projeto\projetoAR\project-files\dynamips 
+May 23 16:07:48.869 GENERAL: working_dir=C:\Users\Tiago\GNS3\projects\Arquitetura de Redes\Projeto\projetoAR\project-files\dynamips
+May 23 16:07:48.870 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Tiago\GNS3\projects\Arquitetura de Redes\Projeto\projetoAR\project-files\dynamips\ecbe1a86-3a91-4452-b891-6345aaca5c5d 
+May 23 16:07:48.870 GENERAL: working_dir=C:\Users\Tiago\GNS3\projects\Arquitetura de Redes\Projeto\projetoAR\project-files\dynamips\ecbe1a86-3a91-4452-b891-6345aaca5c5d
+May 23 16:07:48.870 HYPERVISOR: exec_cmd: vm create R72 5 c7200 
+May 23 16:07:48.872 VM: VM R72 created.
+May 23 16:07:48.872 HYPERVISOR: exec_cmd: vm set_con_tcp_port R72 5009 
+May 23 16:07:48.873 HYPERVISOR: exec_cmd: c7200 get_mac_addr R72 
+May 23 16:07:48.873 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.873 HYPERVISOR: exec_cmd: vm slot_add_binding R72 0 0 C7200-IO-FE 
+May 23 16:07:48.873 HYPERVISOR: exec_cmd: vm set_disk0 R72 0 
+May 23 16:07:48.874 HYPERVISOR: exec_cmd: vm set_exec_area R72 64 
+May 23 16:07:48.874 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.874 HYPERVISOR: exec_cmd: vm set_idle_pc R72 0x601712a8 
+May 23 16:07:48.875 HYPERVISOR: exec_cmd: vm set_ios R72 C:/Users/Tiago/GNS3/images/IOS/Router_7200_Firmware_15.1(4).image 
+May 23 16:07:48.876 HYPERVISOR: exec_cmd: c7200 set_mac_addr R72 ca05.33a4.0000 
+May 23 16:07:48.876 HYPERVISOR: exec_cmd: vm set_nvram R72 512 
+May 23 16:07:48.876 HYPERVISOR: exec_cmd: vm set_ram R72 512 
+May 23 16:07:48.877 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.877 HYPERVISOR: exec_cmd: vm slot_remove_binding R72 0 0 
+May 23 16:07:48.877 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.878 HYPERVISOR: exec_cmd: vm slot_add_binding R72 0 0 C7200-IO-2FE 
+May 23 16:07:48.878 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.878 HYPERVISOR: exec_cmd: vm slot_add_binding R72 1 0 PA-2FE-TX 
+May 23 16:07:48.879 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.879 HYPERVISOR: exec_cmd: vm slot_add_binding R72 2 0 PA-2FE-TX 
+May 23 16:07:48.879 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:07:48.880 HYPERVISOR: exec_cmd: vm slot_add_binding R72 3 0 PA-2FE-TX 
+May 23 16:08:07.894 HYPERVISOR: exec_cmd: nio create_udp udp-25a7529d-f8aa-4ae4-bb61-886e655af31d 10170 127.0.0.1 10171 
+May 23 16:08:08.136 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R72 0 0 udp-25a7529d-f8aa-4ae4-bb61-886e655af31d 
+May 23 16:08:08.137 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:08:08.303 HYPERVISOR: exec_cmd: nio create_udp udp-74c39478-fd5b-4963-9dec-e18ab1fdbfe5 10174 127.0.0.1 10175 
+May 23 16:08:08.306 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R72 0 1 udp-74c39478-fd5b-4963-9dec-e18ab1fdbfe5 
+May 23 16:08:08.306 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:08:08.422 HYPERVISOR: exec_cmd: nio create_udp udp-8b9c486f-c020-401b-87c0-74ac1add6efe 10180 127.0.0.1 10181 
+May 23 16:08:08.425 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R72 1 0 udp-8b9c486f-c020-401b-87c0-74ac1add6efe 
+May 23 16:08:08.425 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:08:17.611 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+May 23 16:08:17.613 VM: VM Ghost created.
+May 23 16:08:17.614 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Tiago/GNS3/images/IOS/Router_7200_Firmware_15.1(4).image 
+May 23 16:08:17.615 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 23 16:08:17.615 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Tiago\GNS3\projects\Arquitetura de Redes\Projeto\projetoAR\project-files\dynamips\Router_7200_Firmware_15.1(4).image-512.ghost' 
+May 23 16:08:17.616 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 16:08:17.616 HYPERVISOR: exec_cmd: vm set_config R72 configs\i5_startup-config.cfg configs\i5_private-config.cfg 
+May 23 16:08:17.617 HYPERVISOR: exec_cmd: vm start R72 
+May 23 16:08:48.434 HYPERVISOR: exec_cmd: vm extract_config R72 
+May 23 16:09:18.453 HYPERVISOR: exec_cmd: vm extract_config R72 
+May 23 20:35:50.979 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 20:35:50.979 HYPERVISOR: exec_cmd: vm stop R72 
+May 23 20:35:51.162 VM: VM R72 shutdown.
+May 23 20:35:51.162 HYPERVISOR: exec_cmd: vm extract_config R72 
+May 23 20:35:56.623 HYPERVISOR: exec_cmd: vm get_status R72 
+May 23 20:35:56.625 HYPERVISOR: exec_cmd: vm extract_config R72 

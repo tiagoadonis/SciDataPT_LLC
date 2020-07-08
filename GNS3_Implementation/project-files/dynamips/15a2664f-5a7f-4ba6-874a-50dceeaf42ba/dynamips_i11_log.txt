@@ -1,0 +1,51 @@
+May 12 17:10:37.057 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 12 17:10:37.057 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58898.
+May 12 17:10:37.535 HYPERVISOR: exec_cmd: hypervisor version 
+May 12 17:10:37.536 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips 
+May 12 17:10:37.537 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+May 12 17:10:37.537 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\f120f9c2-f29d-452c-a3e6-3e785e2a17b2 
+May 12 17:10:37.541 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\f120f9c2-f29d-452c-a3e6-3e785e2a17b2
+May 12 17:10:37.542 HYPERVISOR: exec_cmd: vm create SW62 9 c3725 
+May 12 17:10:37.548 VM: VM SW62 created.
+May 12 17:10:37.550 HYPERVISOR: exec_cmd: vm set_con_tcp_port SW62 5014 
+May 12 17:10:37.551 HYPERVISOR: exec_cmd: c3725 get_mac_addr SW62 
+May 12 17:10:37.553 HYPERVISOR: exec_cmd: vm set_disk0 SW62 1 
+May 12 17:10:37.557 HYPERVISOR: exec_cmd: vm set_exec_area SW62 64 
+May 12 17:10:37.560 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:37.561 HYPERVISOR: exec_cmd: vm set_idle_pc SW62 0x60a6a1e0 
+May 12 17:10:37.569 HYPERVISOR: exec_cmd: vm set_ios SW62 C:/Users/Tiago/GNS3/images/IOS/Router_3725_Firmware_12.4(21).image 
+May 12 17:10:37.571 HYPERVISOR: exec_cmd: c3725 set_mac_addr SW62 c209.2ed8.0000 
+May 12 17:10:37.573 HYPERVISOR: exec_cmd: vm set_nvram SW62 256 
+May 12 17:10:37.575 HYPERVISOR: exec_cmd: vm set_ram SW62 256 
+May 12 17:10:37.576 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:37.578 HYPERVISOR: exec_cmd: vm slot_add_binding SW62 1 0 NM-16ESW 
+May 12 17:10:44.787 HYPERVISOR: exec_cmd: nio create_udp udp-0ae6d962-3ec4-453d-838c-8a7c5435ea16 10010 127.0.0.1 10011 
+May 12 17:10:45.076 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 0 udp-0ae6d962-3ec4-453d-838c-8a7c5435ea16 
+May 12 17:10:45.078 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:46.297 HYPERVISOR: exec_cmd: nio create_udp udp-c3c98887-7e05-40a1-a6eb-4da2d21a0472 10028 127.0.0.1 10029 
+May 12 17:10:46.303 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 1 udp-c3c98887-7e05-40a1-a6eb-4da2d21a0472 
+May 12 17:10:46.304 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:46.524 HYPERVISOR: exec_cmd: nio create_udp udp-1e116826-5c0d-468a-b470-978fa1a06962 10032 127.0.0.1 10033 
+May 12 17:10:46.530 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 2 udp-1e116826-5c0d-468a-b470-978fa1a06962 
+May 12 17:10:46.531 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:46.858 HYPERVISOR: exec_cmd: nio create_udp udp-6297e1eb-0b9d-48e3-82f4-eb61aaf4c957 10038 127.0.0.1 10039 
+May 12 17:10:46.863 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 3 udp-6297e1eb-0b9d-48e3-82f4-eb61aaf4c957 
+May 12 17:10:46.863 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:48.192 HYPERVISOR: exec_cmd: nio create_udp udp-d002add9-7348-43f3-aca4-bf7f8a0a208d 10044 127.0.0.1 10045 
+May 12 17:10:48.197 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 4 udp-d002add9-7348-43f3-aca4-bf7f8a0a208d 
+May 12 17:10:48.197 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:48.754 HYPERVISOR: exec_cmd: nio create_udp udp-e5912763-efd7-4881-b526-be267f5e324f 10050 127.0.0.1 10051 
+May 12 17:10:48.758 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 5 udp-e5912763-efd7-4881-b526-be267f5e324f 
+May 12 17:10:48.761 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:10:49.498 HYPERVISOR: exec_cmd: nio create_udp udp-e343a717-647e-45fc-82d9-6573acae8c1a 10056 127.0.0.1 10057 
+May 12 17:10:49.503 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW62 1 6 udp-e343a717-647e-45fc-82d9-6573acae8c1a 
+May 12 17:10:49.504 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:17:22.659 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:17:22.662 HYPERVISOR: exec_cmd: vm extract_config SW62 
+May 12 17:17:23.243 HYPERVISOR: exec_cmd: vm get_status SW62 
+May 12 17:17:23.250 HYPERVISOR: exec_cmd: vm extract_config SW62 
+May 12 17:17:23.255 HYPERVISOR: exec_cmd: vm delete SW62 
+May 12 17:17:23.255 VM: VM SW62 destroyed.
+May 12 17:17:23.289 HYPERVISOR: exec_cmd: hypervisor stop 
+May 12 17:17:23.789 HYPERVISOR: Stopped.
+May 12 17:17:23.791 GENERAL: reset done.

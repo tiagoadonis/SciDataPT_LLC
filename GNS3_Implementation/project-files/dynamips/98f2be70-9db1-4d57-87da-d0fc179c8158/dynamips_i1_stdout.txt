@@ -1,0 +1,9 @@
+cygwin warning:
+  MS-DOS style path detected: D:\Universidade\MIECT\3\xC2\xBA Ano\2\xC2\xBA Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/d/Universidade/MIECT/3\xC2\xBA Ano/2\xC2\xBA Semestre/Cadeiras/Arquitetura de Redes/Projeto/GNS3/projetoAR/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+vm_mmap_open_file: unable to open file 'c7200_i1_nvram' (No such file or directory)
+VM: Unable to store instance 'Ghost' in registry!
+VM Ghost: unable to create instance!

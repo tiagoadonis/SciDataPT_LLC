@@ -1,0 +1,42 @@
+May 12 17:10:38.458 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 12 17:10:38.459 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58905.
+May 12 17:10:38.917 HYPERVISOR: exec_cmd: hypervisor version 
+May 12 17:10:38.918 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips 
+May 12 17:10:38.921 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+May 12 17:10:38.922 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\15a2664f-5a7f-4ba6-874a-50dceeaf42ba 
+May 12 17:10:38.924 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\15a2664f-5a7f-4ba6-874a-50dceeaf42ba
+May 12 17:10:38.924 HYPERVISOR: exec_cmd: vm create SW41_1 11 c3725 
+May 12 17:10:38.936 VM: VM SW41_1 created.
+May 12 17:10:38.939 HYPERVISOR: exec_cmd: vm set_con_tcp_port SW41_1 5016 
+May 12 17:10:38.940 HYPERVISOR: exec_cmd: c3725 get_mac_addr SW41_1 
+May 12 17:10:38.940 HYPERVISOR: exec_cmd: vm set_disk0 SW41_1 1 
+May 12 17:10:38.942 HYPERVISOR: exec_cmd: vm set_exec_area SW41_1 64 
+May 12 17:10:38.944 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:10:38.947 HYPERVISOR: exec_cmd: vm set_idle_pc SW41_1 0x60a6a1e0 
+May 12 17:10:38.951 HYPERVISOR: exec_cmd: vm set_ios SW41_1 C:/Users/Tiago/GNS3/images/IOS/Router_3725_Firmware_12.4(21).image 
+May 12 17:10:38.953 HYPERVISOR: exec_cmd: c3725 set_mac_addr SW41_1 c20b.25bc.0000 
+May 12 17:10:38.955 HYPERVISOR: exec_cmd: vm set_nvram SW41_1 256 
+May 12 17:10:38.956 HYPERVISOR: exec_cmd: vm set_ram SW41_1 256 
+May 12 17:10:38.958 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:10:38.958 HYPERVISOR: exec_cmd: vm slot_add_binding SW41_1 1 0 NM-16ESW 
+May 12 17:10:46.903 HYPERVISOR: exec_cmd: nio create_udp udp-0727df4f-102a-4b40-9889-47b9c62c78d9 10040 127.0.0.1 10041 
+May 12 17:10:47.836 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW41_1 1 0 udp-0727df4f-102a-4b40-9889-47b9c62c78d9 
+May 12 17:10:47.836 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:10:50.719 HYPERVISOR: exec_cmd: nio create_udp udp-e6220179-9bf1-46d1-ad89-c999f23ca580 10082 127.0.0.1 10083 
+May 12 17:10:50.723 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW41_1 1 1 udp-e6220179-9bf1-46d1-ad89-c999f23ca580 
+May 12 17:10:50.724 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:10:50.928 HYPERVISOR: exec_cmd: nio create_udp udp-9bd00776-ce26-4ead-999a-0f1d5bfc3631 10086 127.0.0.1 10087 
+May 12 17:10:50.935 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW41_1 1 2 udp-9bd00776-ce26-4ead-999a-0f1d5bfc3631 
+May 12 17:10:50.935 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:10:51.540 HYPERVISOR: exec_cmd: nio create_udp udp-5a9fa000-98b0-42c2-aed1-9d52f67fdf8f 10098 127.0.0.1 10099 
+May 12 17:10:51.546 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW41_1 1 3 udp-5a9fa000-98b0-42c2-aed1-9d52f67fdf8f 
+May 12 17:10:51.546 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:17:22.670 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:17:22.673 HYPERVISOR: exec_cmd: vm extract_config SW41_1 
+May 12 17:17:23.242 HYPERVISOR: exec_cmd: vm get_status SW41_1 
+May 12 17:17:23.249 HYPERVISOR: exec_cmd: vm extract_config SW41_1 
+May 12 17:17:23.254 HYPERVISOR: exec_cmd: vm delete SW41_1 
+May 12 17:17:23.254 VM: VM SW41_1 destroyed.
+May 12 17:17:23.330 HYPERVISOR: exec_cmd: hypervisor stop 
+May 12 17:17:23.718 HYPERVISOR: Stopped.
+May 12 17:17:23.718 GENERAL: reset done.

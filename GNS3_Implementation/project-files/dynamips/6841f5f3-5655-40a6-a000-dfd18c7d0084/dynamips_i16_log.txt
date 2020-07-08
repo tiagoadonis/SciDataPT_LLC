@@ -1,0 +1,59 @@
+May 17 13:28:47.227 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 17 13:28:47.227 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50709.
+May 17 13:28:47.737 HYPERVISOR: exec_cmd: hypervisor version 
+May 17 13:28:47.737 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips 
+May 17 13:28:47.737 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+May 17 13:28:47.737 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\c05faf33-828a-4cc0-8084-0ecee001ccc3 
+May 17 13:28:47.737 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\c05faf33-828a-4cc0-8084-0ecee001ccc3
+May 17 13:28:47.737 HYPERVISOR: exec_cmd: vm create SW42_2 14 c3725 
+May 17 13:28:47.742 VM: VM SW42_2 created.
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_con_tcp_port SW42_2 5019 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: c3725 get_mac_addr SW42_2 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_disk0 SW42_2 1 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_exec_area SW42_2 64 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_idle_pc SW42_2 0x60a6a1e0 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_ios SW42_2 C:/Users/Tiago/GNS3/images/IOS/Router_3725_Firmware_12.4(21).image 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: c3725 set_mac_addr SW42_2 c20e.12a8.0000 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_nvram SW42_2 256 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm set_ram SW42_2 256 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:28:47.742 HYPERVISOR: exec_cmd: vm slot_add_binding SW42_2 1 0 NM-16ESW 
+May 17 13:28:58.397 HYPERVISOR: exec_cmd: nio create_udp udp-b71d69d6-5a22-4e49-928b-44bcb3958c18 10058 127.0.0.1 10059 
+May 17 13:28:58.657 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW42_2 1 0 udp-b71d69d6-5a22-4e49-928b-44bcb3958c18 
+May 17 13:28:58.657 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:28:58.847 HYPERVISOR: exec_cmd: nio create_udp udp-7d0c6343-0418-4d21-a777-dbf61b703172 10064 127.0.0.1 10065 
+May 17 13:28:58.847 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW42_2 1 1 udp-7d0c6343-0418-4d21-a777-dbf61b703172 
+May 17 13:28:58.847 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:28:59.527 HYPERVISOR: exec_cmd: nio create_udp udp-34c8cf1f-d4a3-4836-a52d-be49d1488c18 10094 127.0.0.1 10095 
+May 17 13:28:59.527 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW42_2 1 2 udp-34c8cf1f-d4a3-4836-a52d-be49d1488c18 
+May 17 13:28:59.527 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:29:00.152 HYPERVISOR: exec_cmd: nio create_udp udp-bec13ef2-adb5-4767-ad38-51ad76471543 10110 127.0.0.1 10111 
+May 17 13:29:00.157 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW42_2 1 3 udp-bec13ef2-adb5-4767-ad38-51ad76471543 
+May 17 13:29:00.157 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+May 17 13:30:24.877 VM: VM Ghost created.
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Tiago/GNS3/images/IOS/Router_3725_Firmware_12.4(21).image 
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\Router_3725_Firmware_12.4(21).image-256.ghost' 
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm set_config SW42_2 configs\i14_startup-config.cfg 
+May 17 13:30:24.877 HYPERVISOR: exec_cmd: vm start SW42_2 
+May 17 13:42:25.578 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 13:42:25.631 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 14:08:25.751 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 14:08:25.765 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 14:28:25.912 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 14:28:25.924 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 14:28:48.704 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 14:28:48.704 HYPERVISOR: exec_cmd: vm stop SW42_2 
+May 17 14:28:48.953 VM: VM SW42_2 shutdown.
+May 17 14:28:48.954 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 15:49:39.704 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 15:49:39.704 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 15:50:11.453 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 15:50:11.453 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 15:51:03.819 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 15:51:03.822 HYPERVISOR: exec_cmd: vm extract_config SW42_2 
+May 17 15:51:05.526 HYPERVISOR: exec_cmd: vm get_status SW42_2 
+May 17 15:51:05.527 HYPERVISOR: exec_cmd: vm extract_config SW42_2 

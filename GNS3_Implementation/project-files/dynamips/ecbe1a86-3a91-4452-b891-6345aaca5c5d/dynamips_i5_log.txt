@@ -1,0 +1,43 @@
+May 12 17:10:33.051 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 12 17:10:33.054 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58879.
+May 12 17:10:33.516 HYPERVISOR: exec_cmd: hypervisor version 
+May 12 17:10:33.517 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips 
+May 12 17:10:33.517 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+May 12 17:10:33.517 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\bd75a6b9-1c5f-4aee-ad32-61bb485283f8 
+May 12 17:10:33.521 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\bd75a6b9-1c5f-4aee-ad32-61bb485283f8
+May 12 17:10:33.523 HYPERVISOR: exec_cmd: vm create Microondas_2 4 c7200 
+May 12 17:10:33.530 VM: VM Microondas_2 created.
+May 12 17:10:33.531 HYPERVISOR: exec_cmd: vm set_con_tcp_port Microondas_2 5008 
+May 12 17:10:33.533 HYPERVISOR: exec_cmd: c7200 get_mac_addr Microondas_2 
+May 12 17:10:33.534 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.535 HYPERVISOR: exec_cmd: vm slot_add_binding Microondas_2 0 0 C7200-IO-FE 
+May 12 17:10:33.536 HYPERVISOR: exec_cmd: vm set_disk0 Microondas_2 0 
+May 12 17:10:33.536 HYPERVISOR: exec_cmd: vm set_exec_area Microondas_2 64 
+May 12 17:10:33.541 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.542 HYPERVISOR: exec_cmd: vm set_idle_pc Microondas_2 0x601712a8 
+May 12 17:10:33.549 HYPERVISOR: exec_cmd: vm set_ios Microondas_2 C:/Users/Tiago/GNS3/images/IOS/Router_7200_Firmware_15.1(4).image 
+May 12 17:10:33.551 HYPERVISOR: exec_cmd: c7200 set_mac_addr Microondas_2 ca04.1ca0.0000 
+May 12 17:10:33.553 HYPERVISOR: exec_cmd: vm set_nvram Microondas_2 512 
+May 12 17:10:33.554 HYPERVISOR: exec_cmd: vm set_ram Microondas_2 512 
+May 12 17:10:33.555 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.556 HYPERVISOR: exec_cmd: vm slot_remove_binding Microondas_2 0 0 
+May 12 17:10:33.557 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.557 HYPERVISOR: exec_cmd: vm slot_add_binding Microondas_2 0 0 C7200-IO-2FE 
+May 12 17:10:33.562 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.563 HYPERVISOR: exec_cmd: vm slot_add_binding Microondas_2 1 0 PA-2FE-TX 
+May 12 17:10:33.565 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.565 HYPERVISOR: exec_cmd: vm slot_add_binding Microondas_2 2 0 PA-2FE-TX 
+May 12 17:10:33.567 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:10:33.567 HYPERVISOR: exec_cmd: vm slot_add_binding Microondas_2 3 0 PA-2FE-TX 
+May 12 17:15:00.894 HYPERVISOR: exec_cmd: nio create_udp udp-8f7f05ff-eeaf-4f35-89cc-5dd21b463e18 10154 127.0.0.1 10155 
+May 12 17:15:01.192 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Microondas_2 0 0 udp-8f7f05ff-eeaf-4f35-89cc-5dd21b463e18 
+May 12 17:15:01.194 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:17:22.576 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:17:22.582 HYPERVISOR: exec_cmd: vm extract_config Microondas_2 
+May 12 17:17:23.243 HYPERVISOR: exec_cmd: vm get_status Microondas_2 
+May 12 17:17:23.249 HYPERVISOR: exec_cmd: vm extract_config Microondas_2 
+May 12 17:17:23.254 HYPERVISOR: exec_cmd: vm delete Microondas_2 
+May 12 17:17:23.254 VM: VM Microondas_2 destroyed.
+May 12 17:17:23.285 HYPERVISOR: exec_cmd: hypervisor stop 
+May 12 17:17:23.293 HYPERVISOR: Stopped.
+May 12 17:17:23.293 GENERAL: reset done.

@@ -1,0 +1,49 @@
+May 12 17:10:35.753 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 12 17:10:35.757 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58892.
+May 12 17:10:36.160 HYPERVISOR: exec_cmd: hypervisor version 
+May 12 17:10:36.161 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips 
+May 12 17:10:36.163 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips
+May 12 17:10:36.164 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\c59ace69-bebb-4162-bec2-0e31e794f350 
+May 12 17:10:36.165 GENERAL: working_dir=D:\Universidade\MIECT\3º Ano\2º Semestre\Cadeiras\Arquitetura de Redes\Projeto\GNS3\projetoAR\project-files\dynamips\c59ace69-bebb-4162-bec2-0e31e794f350
+May 12 17:10:36.168 HYPERVISOR: exec_cmd: vm create R64 7 c7200 
+May 12 17:10:36.173 VM: VM R64 created.
+May 12 17:10:36.175 HYPERVISOR: exec_cmd: vm set_con_tcp_port R64 5012 
+May 12 17:10:36.176 HYPERVISOR: exec_cmd: c7200 get_mac_addr R64 
+May 12 17:10:36.178 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.179 HYPERVISOR: exec_cmd: vm slot_add_binding R64 0 0 C7200-IO-FE 
+May 12 17:10:36.181 HYPERVISOR: exec_cmd: vm set_disk0 R64 0 
+May 12 17:10:36.184 HYPERVISOR: exec_cmd: vm set_exec_area R64 64 
+May 12 17:10:36.186 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.186 HYPERVISOR: exec_cmd: vm set_idle_pc R64 0x601712a8 
+May 12 17:10:36.190 HYPERVISOR: exec_cmd: vm set_ios R64 C:/Users/Tiago/GNS3/images/IOS/Router_7200_Firmware_15.1(4).image 
+May 12 17:10:36.192 HYPERVISOR: exec_cmd: c7200 set_mac_addr R64 ca07.33c4.0000 
+May 12 17:10:36.193 HYPERVISOR: exec_cmd: vm set_nvram R64 512 
+May 12 17:10:36.197 HYPERVISOR: exec_cmd: vm set_ram R64 512 
+May 12 17:10:36.198 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.198 HYPERVISOR: exec_cmd: vm slot_remove_binding R64 0 0 
+May 12 17:10:36.203 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.204 HYPERVISOR: exec_cmd: vm slot_add_binding R64 0 0 C7200-IO-2FE 
+May 12 17:10:36.206 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.207 HYPERVISOR: exec_cmd: vm slot_add_binding R64 1 0 PA-2FE-TX 
+May 12 17:10:36.209 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.210 HYPERVISOR: exec_cmd: vm slot_add_binding R64 2 0 PA-2FE-TX 
+May 12 17:10:36.213 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:36.214 HYPERVISOR: exec_cmd: vm slot_add_binding R64 3 0 PA-2FE-TX 
+May 12 17:10:42.582 HYPERVISOR: exec_cmd: nio create_udp udp-26331634-dc39-4593-9eaa-8ed6295fc11c 10002 127.0.0.1 10003 
+May 12 17:10:43.523 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R64 0 0 udp-26331634-dc39-4593-9eaa-8ed6295fc11c 
+May 12 17:10:43.524 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:44.749 HYPERVISOR: exec_cmd: nio create_udp udp-913ea2d1-1bf1-446a-98c8-ea6f6f742dfd 10008 127.0.0.1 10009 
+May 12 17:10:44.757 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R64 0 1 udp-913ea2d1-1bf1-446a-98c8-ea6f6f742dfd 
+May 12 17:10:44.758 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:10:45.917 HYPERVISOR: exec_cmd: nio create_udp udp-88af3f5a-bcdf-4436-80ec-00d565fa78ad 10020 127.0.0.1 10021 
+May 12 17:10:45.921 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R64 1 0 udp-88af3f5a-bcdf-4436-80ec-00d565fa78ad 
+May 12 17:10:45.922 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:17:22.648 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:17:22.650 HYPERVISOR: exec_cmd: vm extract_config R64 
+May 12 17:17:23.249 HYPERVISOR: exec_cmd: vm get_status R64 
+May 12 17:17:23.253 HYPERVISOR: exec_cmd: vm extract_config R64 
+May 12 17:17:23.256 HYPERVISOR: exec_cmd: vm delete R64 
+May 12 17:17:23.256 VM: VM R64 destroyed.
+May 12 17:17:23.339 HYPERVISOR: exec_cmd: hypervisor stop 
+May 12 17:17:23.530 HYPERVISOR: Stopped.
+May 12 17:17:23.530 GENERAL: reset done.
