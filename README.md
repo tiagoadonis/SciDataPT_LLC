@@ -25,5 +25,5 @@ the equipments used is [here](https://github.com/tiagoadonis/SciDataPT_LLC/blob/
 ### Images used in GN3 implementation:
 
 - Cisco router 7200 15.1(4) - Minimum RAM: 512MB - 1x C7200-IO-2FE and 3x PA-2FE-TX  
-- Cisco router 3725 12.4(21) - Minimum RAM: 256 MB - 1x GT96100-FE and 1x NM-1FE-TX
+- Cisco router 3725 12.4(21) - Minimum RAM: 256 MB - 1x GT96100-FE and 1x NM-16ESW (as a switch L3)
 - LXDE 8.10 in Debian (for the global datacenter)
