@@ -10,7 +10,7 @@ same caracteristics.
 There are global datacenters in Aveiro and Boston to provide processing and storage to every building in this locations. In Aveiro still exists one 
 local datacenter in the cientific investigation building.  
 
-The company made a deal with two portuguese ISP (ISP PT1 and ISP PT2) to provide internet to the Aveiro and Lisboa HQ but the ISP PT2 doesn't suport IPV6 
+The company made a deal with two portuguese ISP (ISP PT1 and ISP PT2) to provide internet to Aveiro and Lisboa HQ but the ISP PT2 doesn't suport IPV6 
 routing. When it comes to Boston, the two ISP that provide internet are ISP US1 and ISP US2.
 
 It must be guaranted the confidentiality **(i)** internal between Aveiro's investigation VLAN and the local datacenter, **(ii)** external between Aveiro's
